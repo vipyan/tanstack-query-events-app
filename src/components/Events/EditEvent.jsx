@@ -8,7 +8,7 @@ import EventForm from './EventForm.jsx';
 
 import { fetchEvent, updateEvent, queryClient } from '../../utils/http.js';
 import ErrorBlock from '../UI/ErrorBlock.jsx';
-import { use } from 'react';
+
 
 export default function EditEvent() {
   const navigate = useNavigate();
